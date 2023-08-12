@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "webgenerator"
+version = "0.1.0"
+description = ""
+authors = ["Vladimir Kashin <vo.kashin@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = { version = "*", extras = ["async"] }
+faker = "^19.1.0"
+flask-socketio = "^5.3.4"
+eventlet = "^0.33.3"
+exrex = "^0.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
